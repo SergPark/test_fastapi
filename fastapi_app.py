@@ -49,4 +49,4 @@ def create_book(new_book: NewBook):
     return {'success': True}
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", reload=False)
+    uvicorn.run("fastapi_app:app", reload=False)
